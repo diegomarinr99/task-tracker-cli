@@ -32,6 +32,7 @@ def list_tasks(args):
     """List all tasks."""
     if not tasks:
         print("No tasks available.")
+    #Commented is the wrong way to do the for loop
     # elif args.done:
     #     for idx, task in enumerate(tasks, 1):
     #         if not task['done']:
